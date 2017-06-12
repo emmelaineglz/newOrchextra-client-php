@@ -1,0 +1,22 @@
+{
+  "name": "emmelaineglz/orchextra-client-php",
+  "type": "library",
+  "description": "SDK para Autenticación de OrchextraClient",
+  "keywords": ["cupones","orchextra"],
+  "homepage": "https://github.com/emmelaineglz/orchextra-client-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ethel E. Gonzalez",
+      "email": "ethel.gonzalez@gigigo.com.mx"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gigigo\\Orchextra\\": "src"
+    }
+  }
+}
