@@ -17,13 +17,13 @@ use Gigigo\Orchextra\Auth;
 ## Instanciamos la clase
 
 ```php
-$auth = new Auth();
+$auth = new Auth('https://ejemplo.com.mx');
 ```
 
 ## Hacemos referencia al método de Autentucación del Cliente y llamamos a los metodos que devuelven el Token y el tiempo de Expirado.
 
 ```php
-$client = $auth->authClient('qwerty', 'qwerty');
+$client = $auth->authClient('cliente1', '12345');
 echo $auth->getToken();
 echo $auth->getExpiresIn();
 ```
